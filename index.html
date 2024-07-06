@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table  border="1">
+        <caption>First Table in HTML</caption>
+
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">MATHS</td>
+                <td>arts</td>
+                <td colspan="3" align="center">sciences</td>
+            </tr>
+
+            <tr>
+                <td>arts</td>
+                <td>pe</td>
+                <td>HS</td>
+                <td>sciences</td>
+            </tr>
+            <tr>
+                <td>arts</td>
+                <td>pe</td>
+                <td>HS</td>
+                <td>sciences</td>
+            </tr>
+        </tbody>
+    
+
+    </table>
+    <label for="cars">Choose a car:</label><select id="cars" name="cars"><option value="volvo">Volvo</option><option value="saab">Saab</option><option value="fiat">Fiat</option><option value="audi">Audi</option></select>In this example, the user can choose from four car brands: Volvo, Saab, Fiat, and Audi. Pre-selected Option:You can specify a default or pre-selected option by adding the `selected` attribute to one of the `<option>` elements. This will make that option selected by default when the page loads.
+
+    <label for="email">email</label>
+        <input type="text" placeholder="email">
+    <datalist id="browsers">
+        <option value="internet explorer"></option>
+        <option value="firefox"></option>
+    </datalist>
+    
+</body>
+</html>
